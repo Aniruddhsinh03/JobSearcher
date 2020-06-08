@@ -4,6 +4,34 @@ This is a Scrapy project to scrape job information from  https://newyork.craigsl
 
 This project is only meant for educational purposes.
 
+## Element Selection
+
+Job Listing Website
+
+
+![Image of Website](https://github.com/Aniruddhsinh03/JobSearcher/blob/master/screenshots/job_1.jpg)
+
+Extract Job Urls
+
+
+![Image of jobUrls](https://github.com/Aniruddhsinh03/JobSearcher/blob/master/screenshots/job_2.jpg)
+
+Extract Date
+
+
+![Image of Date](https://github.com/Aniruddhsinh03/JobSearcher/blob/master/screenshots/job_3.jpg)
+
+Extract Thumbs
+
+
+![Image of Thumbs](https://github.com/Aniruddhsinh03/JobSearcher/blob/master/screenshots/job_4.jpg)
+
+
+Extract Job Posting Body
+
+
+![Image of JobPostingBody](https://github.com/Aniruddhsinh03/JobSearcher/blob/master/screenshots/job_5.jpg)
+
 
 ## Extracted data
 
