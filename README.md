@@ -1,6 +1,6 @@
 # JobSearcher
 
-This is a Scrapy project to scrape quotes and author information from  http://quotes.toscrape.com.
+This is a Scrapy project to scrape job information from  https://newyork.craigslist.org/d/automotive-services/search/aos.
 
 This project is only meant for educational purposes.
 
@@ -10,14 +10,23 @@ This project is only meant for educational purposes.
 This project extracts quotes, combined with the respective author names and tags.
 The extracted data looks like this sample:
 
-    {
-        'Author': 'Douglas Adams',
-        'Comment': '“I may not have gone where I intended to go, but I think I ...”',
-        'Tags': ['life', 'navigation'],
-        'Author Born Location': 'in Atlanta, Georgia, The United States', 
-        'Author Description': "Martin Luther King, Jr. was one of the pivotal leaders of the American civil rights movement. King was a'
-    }
-
+           {
+             "date": "2020-06-08 02:00",
+             "link": "https://newyork.craigslist.org/stn/aos/d/staten-island-mobile-auto-body-repair/7137824388.html",
+             "text": "mobile auto body repair 60% off shop price",
+             "compensation": null,
+             "type": null,
+             "images": [
+             "https://images.craigslist.org/00W0W_dX9Njz7JLwE_0t20t2_600x450.jpg",
+             "https://images.craigslist.org/00p0p_85S5teL5luk_0t20t2_600x450.jpg",
+             "https://images.craigslist.org/01010_51Z32ESXNL7_0t20t2_600x450.jpg",
+             "https://images.craigslist.org/00b0b_81REHtuVZWo_0t20t2_600x450.jpg"
+                       ],
+             "address": [
+             "\n        ",
+            "\nmobile auto body repair we come to you same day service all jobs big or small satisfaction guaranteed 60% shop price      r            ubber & plastic bumper repair all size dents rust holes scuff marks scratches faded paint repair fiber glass repair         headlight restoration color matching & blending part replacement & installation call or text for free estimate 917.454.4453"
+  ]
+}
 
 ## Spiders
 
