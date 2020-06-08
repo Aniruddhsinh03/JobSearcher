@@ -26,7 +26,7 @@ The extracted data looks like this sample:
              "\n        ",
             "\nmobile auto body repair we come to you same day service all jobs big or small satisfaction guaranteed 60% shop price      r            ubber & plastic bumper repair all size dents rust holes scuff marks scratches faded paint repair fiber glass repair         headlight restoration color matching & blending part replacement & installation call or text for free estimate 917.454.4453"
                         ]
-                        }
+              }
 
 ## Spiders
 
